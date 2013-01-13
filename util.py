@@ -16,3 +16,14 @@ def getPrimesInRange(first, last):
 		if isPrime(n):
 			primesInRange.append(n)
 	return primesInRange
+
+def getNPrimesFrom(n, first):
+	primes = []
+	i = first
+	while len(primes) < n:
+		if isPrime(i):
+			primes.append(i)
+		i += 1
+	return primes
+		
+print getNPrimesFrom(10, 100)
