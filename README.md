@@ -1,4 +1,4 @@
-TestDjango
+TestDjango!
 ==========
 
 Welcome to Team42's awesome test project!
