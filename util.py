@@ -1,10 +1,8 @@
 def isPrime(n):
-	if n == 1:
+	if n < 2:
 		return False
-	elif n > 1:
-		return isFactorOfSomeElement(n, range(2,n))
 	else:
-		return False
+		return isFactorOfSomeElement(n, range(2,n))
 
 def isFactorOfSomeElement(n, array):
 	for element in array:
